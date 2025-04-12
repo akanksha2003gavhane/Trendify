@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(https://www.squareformen.com/wp-content/uploads/2022/05/image1-3.jpg);
+   background-size:cover;
+   cursor: pointer;
+}
+/* .left, .right{
+    width: 45%; 
+    height: 100vh;
+    padding: 20px;
+    text-align: center; 
+    font-family: sans-serif;
+} */
+.left {
+    /* margin-right: 5%;  */
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 45%;
+    color: red;
+    text-align: center;
+    text-shadow: 10cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    text-align: center;
+    width: 300px;
+    background: rgb(202, 239, 241);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-shadow:royalblue;
+}
+.right{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 300px;
+    background: rgb(202, 239, 241);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0.2cm;
+}
+.links a {
+    display: black;
+    margin-top: 10px;
+    text-decoration: none;
+    color:mediumseagreen;
+}
+.links1 a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: mediumseagreen;
+    /* margin: 1px;
+    padding: 1px;
+    background-color:bisque;*/
+}
+
+/* sign up  */
+.container1 {
+    width: 300px;
+    background: rgb(202, 239, 241);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.leftside, .rightside{
+    width: 45%; 
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.leftside {
+    margin-right: 5%; 
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 45%;
+}
+.rightside{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 45%;
+}
+
+/* Forgetpass */
+.container2{
+    width: 300px;
+    background: rgb(202, 239, 241);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.left1, .right1{
+    width: 45%; 
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.left1{
+    margin-right: 5%; 
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 45%;
+}
+.right1{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 45%;
+}
